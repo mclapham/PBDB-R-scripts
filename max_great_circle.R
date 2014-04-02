@@ -172,14 +172,13 @@ geog_range<-function(include_taxon,maxinterval,mininterval=maxinterval,tax_level
 
 #RESULTS ORDERING
   #the intervals are in ascending numerical order by interval_no, but not necessarily chronological (this finds the chronological order)
-  interval_order<-order(sapply(split(colnames(max_gc_dist),as.numeric(colnames(max_gc_dist))),function(x) which(time_int$interval_no==x)),decreasing=T)
+  interval_order<-order(sapply(as.numeric(colnames(max_gc_dist)),function(x) which(time_int$interval_no==x)),decreasing=T)
   
   #moves columns into chronological order
   max_gc_dist<<-max_gc_dist[,interval_order]
    
   #renames columns with interval name
-  colnames(max_gc_dist)<<-time_int$interval_name[sapply(split(colnames(max_gc_dist),as.numeric(colnames(max_gc_dist))),function(x) which(time_int$interval_no==x))][interval_order]
-  
+  colnames(max_gc_dist)<<-time_int$interval_name[sapply(colnames(max_gc_dist),function(x) which(time_int$interval_no==x))] 
   #removes empty rows
   max_gc_dist<<-subset(max_gc_dist,apply(max_gc_dist,1,function(x) sum(x,na.rm=T))>0)
 }
