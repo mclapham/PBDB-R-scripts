@@ -39,7 +39,7 @@ geog_range<-function(include_taxon,maxinterval,mininterval=maxinterval,tax_level
   min_interval_ma<-subset(time_int$late_age,time_int$interval_name==mininterval)
   
   #reads occurrences based on specified taxa and age range
-  occurrences<-read.csv(paste("http://paleobiodb.org/data1.1/occs/list.txt?base_name=",include_taxon,"&min_ma=",min_interval_ma,"&max_ma=",max_interval_ma,"&show=time,paleoloc,phylo,geo&limit=all",sep=""))
+  occurrences<-read.csv(paste("http://paleobiodb.org/data1.1/occs/list.txt?base_name=",include_taxon,"&min_ma=",min_interval_ma,"&max_ma=",max_interval_ma,"&show=time,paleoloc,phylo,geo,ident&limit=all",sep=""))
   
   #finds only those collections resolved to a stage
   resolved_occs<-subset(occurrences,occurrences$cx_int_no %in% subset(time_int$interval_no,time_int$level==5))
@@ -91,12 +91,7 @@ geog_range<-function(include_taxon,maxinterval,mininterval=maxinterval,tax_level
   if(tax_level=="species")
     {
     #removes rows where species qualified by cf. or aff., question mark, ex gr. or quotation mark
-    if(length(grep("f\\.$",resolved_occs$taxon_name))>0) resolved_occs<-resolved_occs[-grep("f\\.$",resolved_occs$taxon_name),]
-    if(length(grep("\\?$",resolved_occs$taxon_name))>0) resolved_occs<-resolved_occs[-grep("\\?$",resolved_occs$taxon_name),]
-    if(length(grep("gr\\.$",resolved_occs$taxon_name))>0) resolved_occs<-resolved_occs[-grep("gr\\.$",resolved_occs$taxon_name),]
-    if(length(grep("\"$",resolved_occs$taxon_name))>0) resolved_occs<-resolved_occs[-grep("\"$",resolved_occs$taxon_name),]
-    if(length(grep("sensu lato$",resolved_occs$taxon_name))>0) resolved_occs<-resolved_occs[-grep("sensu lato$",resolved_occs$taxon_name),]
-    if(length(grep("informal$",resolved_occs$taxon_name))>0) resolved_occs<-resolved_occs[-grep("informal$",resolved_occs$taxon_name),]
+    resolved_occs<-subset(resolved_occs,resolved_occs$species_reso=="" | resolved_occs$species_reso=="n. sp.")
     
     if (formal_id=="yes") {
       #deletes occurrences not resolved to species level using formally-classified species
@@ -153,16 +148,10 @@ geog_range<-function(include_taxon,maxinterval,mininterval=maxinterval,tax_level
     resolved_occs<-subset(resolved_occs,resolved_occs$matched_rank<=5)
     
     #deletes occurrences where genus is qualified with question mark, quotations, cf. or aff.
-    if(length(grep("\\? ",resolved_occs$taxon_name))>0) resolved_occs<-resolved_occs[-grep("\\? ",resolved_occs$taxon_name),]
-    if(length(grep("\" ",resolved_occs$taxon_name))>0) resolved_occs<-resolved_occs[-grep("\" ",resolved_occs$taxon_name),]
-    if(length(grep("cf. ",resolved_occs$taxon_name))>0) resolved_occs<-resolved_occs[-grep("cf. ",resolved_occs$taxon_name),]
-    if(length(grep("aff. ",resolved_occs$taxon_name))>0) resolved_occs<-resolved_occs[-grep("aff. ",resolved_occs$taxon_name),]
-    
-    #extracts just the genus name from character string
-    resolved_occs$matched_name<-gsub(" .*$","",resolved_occs$matched_name)
-    
+    resolved_occs<-subset(resolved_occs,resolved_occs$genus_reso=="" | resolved_occs$genus_reso=="n. sp.")
+      
     #prepares a data frame with only the necessary columns
-    cleaned_occs<-data.frame(taxon_name=resolved_occs$matched_name,interval_name=resolved_occs$early_interval,interval_no=resolved_occs$cx_int_no,paleolat=resolved_occs$paleolat,paleolng=resolved_occs$paleolng)
+    cleaned_occs<-data.frame(taxon_name=resolved_occs$genus_name,interval_name=resolved_occs$early_interval,interval_no=resolved_occs$cx_int_no,paleolat=resolved_occs$paleolat,paleolng=resolved_occs$paleolng)
     
   }
 
