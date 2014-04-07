@@ -135,7 +135,7 @@ geog_range<-function(include_taxon,maxinterval,mininterval=maxinterval,tax_level
   } else if (tax_level=="family") {
  
     #deletes occurrences not resolved to at least family level using classified and unclassified species
-    resolved_occs<-subset(resolved_occs,resolved_occs$taxon_rank=="species" | resolved_occs$taxon_rank=="genus" | resolved_occs$taxon_rank=="family")
+    resolved_occs<-subset(resolved_occs,resolved_occs$matched_rank<=9)
     
     #deletes occurrences where genus or family are qualified with question mark, quotations, cf. or aff.
     if(length(grep("\\? ",resolved_occs$taxon_name))>0) resolved_occs<-resolved_occs[-grep("\\? ",resolved_occs$taxon_name),]
@@ -150,7 +150,7 @@ geog_range<-function(include_taxon,maxinterval,mininterval=maxinterval,tax_level
   } else {
     
     #deletes occurrences not resolved to at least genus level using classified and unclassified species
-    resolved_occs<-subset(resolved_occs,resolved_occs$taxon_rank=="species" | resolved_occs$taxon_rank=="genus")
+    resolved_occs<-subset(resolved_occs,resolved_occs$matched_rank<=5)
     
     #deletes occurrences where genus is qualified with question mark, quotations, cf. or aff.
     if(length(grep("\\? ",resolved_occs$taxon_name))>0) resolved_occs<-resolved_occs[-grep("\\? ",resolved_occs$taxon_name),]
