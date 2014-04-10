@@ -10,6 +10,8 @@
 #Optional: environment (terrestrial, marine, siliciclastic, carbonate, reef)
 #Optional: restrict analysis to formally-classified species (only relevant if tax_level="species")
 
+#Output is to screen and stored as a variable named sqsdiv
+
 sqs.div<-function(include_taxon,maxinterval,mininterval=maxinterval,q,n_rep=10,tax_level="genus",environ="all",formal_id="no") {
 
 #DATA ACQUISITION
