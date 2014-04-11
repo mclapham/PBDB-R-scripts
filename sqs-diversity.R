@@ -206,7 +206,10 @@ sqs.div<-function(include_taxon,maxinterval,mininterval=maxinterval,q,n_rep=10,t
     
     #adds first collection
     sampled_taxa<-unlist(coll_taxon_lists[1])
-    
+
+    #sets counter to check if largest taxon has been added
+    max_added<-0
+ 
     #increments through list of collections
       for (i in seq(2,length(coll_taxon_lists))) {
       
