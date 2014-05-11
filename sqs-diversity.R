@@ -1,6 +1,7 @@
 #SHAREHOLDER QUORUM SUBSAMPLING DIVERSITY ANALYSIS
 #Based on the method described by Alroy (2010)
-#(I think this should work correctly!)
+#This may or may not work correctly
+#I plan (hope?) to work on the "exact SQS" method that John Alroy has developed (see Alroy, 2014, Paleobiology) 
 #Enter the taxonomic groups to be included (comma-separated list accepted) as include_taxon
 #Enter the oldest (maxinterval) and youngest (mininterval) time intervals, using any PaleoDB time interval name
 #Enter the quorum (q) you wish to sample (a number between 0 and 1)
