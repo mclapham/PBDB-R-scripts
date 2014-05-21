@@ -1,0 +1,902 @@
+interval_no,interval_name,myr_bin_name
+943,Haweran,Cenozoic 6
+925,Wanganui,Cenozoic 6
+555,Porterfieldian,Cenozoic 6
+718,Lujanian,Cenozoic 6
+239,Sheridanian,Cenozoic 6
+1088,Tarantian,Cenozoic 6
+1038,Nihewanian,Cenozoic 6
+237,Rancholabrean,Cenozoic 6
+1089,Ionian,Cenozoic 6
+240,Cudahyan,Cenozoic 6
+241,Sappan,Cenozoic 6
+238,Irvingtonian,Cenozoic 6
+944,Castlecliffian,Cenozoic 6
+719,Ensenadan,Cenozoic 6
+924,Early Pleistocene,Cenozoic 6
+720,Uquian,Cenozoic 6
+945,Nukumaruan,Cenozoic 6
+243,Rexroadian,Cenozoic 6
+219,Blancan,Cenozoic 6
+242,"""Senecan""",Cenozoic 6
+295,MN 17,Cenozoic 6
+946,Mangapanian,Cenozoic 6
+296,MN 16,Cenozoic 6
+1039,Yushean,Cenozoic 6
+288,Villanyian,Cenozoic 6
+81,Late Pliocene,Cenozoic 6
+947,Waipipian,Cenozoic 6
+721,Chapadmalalan,Cenozoic 6
+297,MN 15,Cenozoic 6
+289,Ruscinian,Cenozoic 6
+948,Opoitian,Cenozoic 6
+82,Early Pliocene,Cenozoic 6
+722,Montehermosan,Cenozoic 6
+298,MN 14,Cenozoic 6
+220,Hemphillian,Cenozoic 6
+299,MN 13,Cenozoic 6
+244,Late Hemphillian,Cenozoic 6
+245,late Early Hemphillian,Cenozoic 6
+246,early Early Hemphillian,Cenozoic 6
+1040,Baodean,Cenozoic 6
+290,Turolian,Cenozoic 6
+926,Taranaki,Cenozoic 6
+949,Kapitean,Cenozoic 6
+83,Late Miocene,Cenozoic 6
+950,Tongaporutuan,Cenozoic 6
+723,Huayquerian,Cenozoic 6
+300,MN 12,Cenozoic 6
+1044,Pannonian,Cenozoic 6
+301,MN 11,Cenozoic 6
+291,Vallesian,Cenozoic 6
+302,MN 10,Cenozoic 6
+724,Chasicoan,Cenozoic 6
+303,MN 9,Cenozoic 6
+951,Waiauan,Cenozoic 6
+292,Astaracian,Cenozoic 5
+84,Middle Miocene,Cenozoic 5
+1045,Sarmatian,Cenozoic 5
+726,Laventan,Cenozoic 5
+1046,Badenian,Cenozoic 5
+952,Lillburnian,Cenozoic 5
+305,MN 6,Cenozoic 5
+251,Early Barstovian,Cenozoic 5
+222,Barstovian,Cenozoic 5
+249,late Late Barstovian,Cenozoic 5
+250,early Late Barstovian,Cenozoic 5
+1042,Shanwangian,Cenozoic 5
+953,Clifdenian,Cenozoic 5
+306,MN 5,Cenozoic 5
+727,Colloncuran,Cenozoic 5
+728,Friasian,Cenozoic 5
+928,Pareora,Cenozoic 5
+954,Altonian,Cenozoic 5
+253,Early Hemingfordian,Cenozoic 5
+85,Early Miocene,Cenozoic 5
+223,Hemingfordian,Cenozoic 5
+252,Late Hemingfordian,Cenozoic 5
+293,Orleanian,Cenozoic 5
+307,MN 4,Cenozoic 5
+729,Santacrucian,Cenozoic 5
+308,MN 3,Cenozoic 5
+1043,Xiejiaan,Cenozoic 5
+730,Colhuehuapian,Cenozoic 5
+955,Otaian,Cenozoic 5
+294,Agenian,Cenozoic 5
+309,MN 2,Cenozoic 5
+310,MN 1,Cenozoic 5
+997,Tabenbulakian,Cenozoic 4
+86,Late Oligocene,Cenozoic 4
+1014,MP 28,Cenozoic 4
+998,Hsandagolian,Cenozoic 4
+1015,MP 27,Cenozoic 4
+1016,MP 26,Cenozoic 4
+1012,MP 30,Cenozoic 4
+1017,MP 25,Cenozoic 4
+1013,MP 29,Cenozoic 4
+286,Monroecreekian,Cenozoic 4
+957,Duntroonian,Cenozoic 4
+287,Geringian,Cenozoic 4
+958,Whaingaroan,Cenozoic 4
+1018,MP 24,Cenozoic 4
+1019,MP 23,Cenozoic 4
+1020,MP 22,Cenozoic 4
+999,Kekeamuan,Cenozoic 4
+1021,MP 21,Cenozoic 4
+87,Early Oligocene,Cenozoic 4
+225,Whitneyan,Cenozoic 4
+226,Orellan,Cenozoic 4
+1001,Ergilian,Cenozoic 3
+259,Middle Chadronian,Cenozoic 3
+1023,MP 19,Cenozoic 3
+1002,Ulangochuian,Cenozoic 3
+1024,MP 18,Cenozoic 3
+88,Late Eocene,Cenozoic 3
+227,Chadronian,Cenozoic 3
+1025,MP 17B,Cenozoic 3
+260,Early Chadronian,Cenozoic 3
+1000,Houldjinian,Cenozoic 3
+1026,MP 17A,Cenozoic 3
+258,Late Chadronian,Cenozoic 3
+1022,MP 20,Cenozoic 3
+959,Runangan,Cenozoic 3
+960,Kaiatan,Cenozoic 3
+1027,MP 16,Cenozoic 2
+89,Middle Eocene,Cenozoic 2
+961,Bortonian,Cenozoic 2
+1003,Sharamurunian,Cenozoic 2
+1004,Irdinmanhan,Cenozoic 2
+228,Duchesnean,Cenozoic 2
+1005,Arshantan,Cenozoic 2
+229,Uintan,Cenozoic 2
+1032,MP 11,Cenozoic 2
+261,Late Uintan,Cenozoic 2
+1028,MP 15,Cenozoic 2
+1029,MP 14,Cenozoic 2
+1030,MP 13,Cenozoic 2
+262,Early Uintan,Cenozoic 2
+1031,MP 12,Cenozoic 2
+734,Mustersan,Cenozoic 2
+962,Porangan,Cenozoic 2
+230,Bridgerian,Cenozoic 2
+263,Twinbuttean,Cenozoic 2
+264,Blacksforkian,Cenozoic 2
+963,Heretaungan,Cenozoic 2
+265,Gardnerbuttian,Cenozoic 2
+735,Casamayoran,Cenozoic 2
+90,Early Eocene,Cenozoic 2
+1006,Bumbanian,Cenozoic 2
+1033,MP 10,Cenozoic 2
+1034,MP 8 + 9,Cenozoic 2
+1035,MP 7,Cenozoic 2
+964,Mangaorapan,Cenozoic 2
+267,Lysitean,Cenozoic 2
+268,Graybullian,Cenozoic 2
+231,Wasatchian,Cenozoic 2
+269,Sandcouleean,Cenozoic 2
+266,Lostcabinian,Cenozoic 2
+965,Waipawan,Cenozoic 2
+271,Cf2,Cenozoic 1
+1036,MP 6,Cenozoic 1
+736,Riochican,Cenozoic 1
+272,Cf1,Cenozoic 1
+1037,MP 1 - 5,Cenozoic 1
+1007,Gashatan,Cenozoic 1
+966,Teurian,Cenozoic 1
+91,Late Paleocene,Cenozoic 1
+232,Clarkforkian,Cenozoic 1
+270,Cf3,Cenozoic 1
+276,Ti3,Cenozoic 1
+277,Ti2,Cenozoic 1
+273,Ti6,Cenozoic 1
+278,Ti1,Cenozoic 1
+274,Ti5,Cenozoic 1
+233,Tiffanian,Cenozoic 1
+275,Ti4,Cenozoic 1
+737,Itaboraian,Cenozoic 1
+783,Middle Paleocene,Cenozoic 1
+738,Peligran,Cenozoic 1
+234,Torrejonian,Cenozoic 1
+281,To1,Cenozoic 1
+235,Dragonian,Cenozoic 1
+92,Early Paleocene,Cenozoic 1
+279,To3,Cenozoic 1
+280,To2,Cenozoic 1
+739,Tiupampan,Cenozoic 1
+282,Pu3,Cenozoic 1
+236,Puercan,Cenozoic 1
+283,Pu2,Cenozoic 1
+284,Pu1,Cenozoic 1
+744,Lancian,Cretaceous 8
+655,Early Maastrichtian,Cretaceous 8
+745,Edmontonian,Cretaceous 8
+654,Late Maastrichtian,Cretaceous 8
+658,Early Campanian,Cretaceous 7
+746,Judithian,Cretaceous 7
+656,Late Campanian,Cretaceous 7
+747,Aquilan,Cretaceous 7
+657,Middle Campanian,Cretaceous 7
+661,Early Santonian,Cretaceous 6
+968,Piripauan,Cretaceous 6
+659,Late Santonian,Cretaceous 6
+660,Middle Santonian,Cretaceous 6
+969,Teratan,Cretaceous 6
+662,Late Coniacian,Cretaceous 6
+663,Middle Coniacian,Cretaceous 6
+664,Early Coniacian,Cretaceous 6
+667,Early Turonian,Cretaceous 6
+970,Mangaotanean,Cretaceous 6
+665,Late Turonian,Cretaceous 6
+666,Middle Turonian,Cretaceous 6
+670,Early Cenomanian,Cretaceous 5
+668,Late Cenomanian,Cretaceous 5
+669,Middle Cenomanian,Cretaceous 5
+972,Ngaterian,Cretaceous 5
+671,Late Albian,Cretaceous 4
+973,Motuan,Cretaceous 4
+974,Urutawan,Cretaceous 4
+672,Middle Albian,Cretaceous 4
+673,Early Albian,Cretaceous 4
+674,Late Aptian,Cretaceous 3
+675,Early Aptian,Cretaceous 3
+676,Late Barremian,Cretaceous 2
+677,Early Barremian,Cretaceous 2
+679,Early Hauterivian,Cretaceous 2
+678,Late Hauterivian,Cretaceous 2
+681,Early Valanginian,Cretaceous 1
+680,Late Valanginian,Cretaceous 1
+683,Middle Berriasian,Cretaceous 1
+684,Early Berriasian,Cretaceous 1
+682,Late Berriasian,Cretaceous 1
+685,Late Tithonian,Jurassic 6
+686,Middle Tithonian,Jurassic 6
+976,Puaroan,Jurassic 6
+936,Oteke,Jurassic 6
+687,Early Tithonian,Jurassic 6
+689,Early Kimmeridgian,Jurassic 5
+688,Late Kimmeridgian,Jurassic 5
+978,Heterian,Jurassic 5
+692,Early Oxfordian,Jurassic 5
+691,Middle Oxfordian,Jurassic 5
+690,Late Oxfordian,Jurassic 5
+485,Early Callovian,Jurassic 5
+483,Late Callovian,Jurassic 5
+484,Middle Callovian,Jurassic 5
+695,Early Bathonian,Jurassic 4
+694,Middle Bathonian,Jurassic 4
+693,Late Bathonian,Jurassic 4
+528,Sauzei,Jurassic 4
+524,Parkinsoni,Jurassic 4
+529,Laeviuscula,Jurassic 4
+525,Garantiana,Jurassic 4
+530,Discites,Jurassic 4
+486,Late Bajocian,Jurassic 4
+526,Subfurcatum,Jurassic 4
+495,Epizigzagiceras,Jurassic 4
+496,Rotundum,Jurassic 4
+497,Oblatum,Jurassic 4
+487,Early Bajocian,Jurassic 4
+498,Kirschneri,Jurassic 4
+499,Crassicostatus,Jurassic 4
+527,Humphresianum,Jurassic 4
+500,Widebayense,Jurassic 4
+501,Howelli,Jurassic 3
+533,Opalinum,Jurassic 3
+502,Scissum,Jurassic 3
+503,Westermanni,Jurassic 3
+698,Early Aalenian,Jurassic 3
+531,Concavum,Jurassic 3
+697,Middle Aalenian,Jurassic 3
+532,Murchisonae,Jurassic 3
+696,Late Aalenian,Jurassic 3
+505,Hillebrandti,Jurassic 3
+537,Bifrons,Jurassic 3
+506,Crassicosta,Jurassic 3
+534,Levesquei,Jurassic 3
+535,Thouarsense,Jurassic 3
+489,Middle Toarcian,Jurassic 3
+504,Yakounensis,Jurassic 3
+536,Variabilis,Jurassic 3
+488,Late Toarcian,Jurassic 3
+507,Planulata,Jurassic 3
+538,Falciferum,Jurassic 3
+539,Tenuicostatum,Jurassic 3
+490,Early Toarcian,Jurassic 3
+508,Kanense,Jurassic 3
+491,Late Pliensbachian,Jurassic 2
+542,Davoei,Jurassic 2
+543,Ibex,Jurassic 2
+544,Jamesoni,Jurassic 2
+540,Spinatum,Jurassic 2
+492,Early Pliensbachian,Jurassic 2
+509,Carlottense,Jurassic 2
+541,Margaritatus,Jurassic 2
+510,Kunae,Jurassic 2
+511,Freboldi,Jurassic 2
+512,Whiteavesi,Jurassic 2
+513,Imlayi,Jurassic 2
+547,Obtusum,Jurassic 1
+493,Late Sinemurian,Jurassic 1
+548,Turneri,Jurassic 1
+549,Semicostatum,Jurassic 1
+981,Aratauran,Jurassic 1
+517,Arnioceras arnouldi,Jurassic 1
+545,Raricostatum,Jurassic 1
+550,Bucklandi,Jurassic 1
+494,Early Sinemurian,Jurassic 1
+546,Oxynotum,Jurassic 1
+519,Canadensis,Jurassic 1
+515,Plesechioceras harbledownense,Jurassic 1
+516,Asteroceras varians,Jurassic 1
+518,Coroniceras,Jurassic 1
+551,Angulata,Jurassic 1
+700,Middle Hettangian,Jurassic 1
+699,Late Hettangian,Jurassic 1
+552,Liasicus,Jurassic 1
+520,Pseudaetomoceras,Jurassic 1
+553,Planorbis,Jurassic 1
+701,Early Hettangian,Jurassic 1
+523,Psiloceras,Jurassic 1
+521,Franziceras,Jurassic 1
+522,Euphyllites,Jurassic 1
+1101,Misikella ultima,Triassic 4
+1102,Misikella rhaetica,Triassic 4
+939,Balfour,Triassic 4
+1103,Misikella posthernsteini-hernsteini,Triassic 4
+1104,Misikella bidentata-posthernsteini,Triassic 4
+982,Otapirian,Triassic 4
+983,Warepan,Triassic 4
+702,Sevatian,Triassic 4
+984,Otamitan,Triassic 4
+703,Alaunian,Triassic 4
+704,Lacian,Triassic 4
+705,Tuvalian,Triassic 3
+985,Oretian,Triassic 3
+706,Julian,Triassic 3
+1050,Bukobayian,Triassic 2
+1051,Donguzian,Triassic 2
+707,Longobardian,Triassic 2
+708,Fassanian,Triassic 2
+987,Etalian,Triassic 2
+710,Pelsonian,Triassic 2
+711,Bithynian,Triassic 2
+712,Aegean,Triassic 2
+709,Illyrian,Triassic 2
+140,Spathian,Triassic 1
+1055,Sludkian,Triassic 1
+141,Nammalian,Triassic 1
+1056,Rybinskian,Triassic 1
+989,Nelsonian,Triassic 1
+1052,Gamian,Triassic 1
+1057,Vokhmian,Triassic 1
+1048,Yarengian,Triassic 1
+1053,Fedorovkian,Triassic 1
+713,Smithian,Triassic 1
+1049,Vetlugian,Triassic 1
+1054,Ustmylian,Triassic 1
+142,Griesbachian,Triassic 1
+714,Dienerian,Triassic 1
+990,Makarewan,Permian 4
+852,Vyatkian,Permian 4
+1061,Early Severodvinian,Permian 4
+913,Chhidru,Permian 4
+475,Dewey Lake,Permian 4
+47,Zechstein,Permian 4
+991,Waiitian,Permian 4
+906,Pamirian,Permian 4
+1105,Meishanian,Permian 4
+1059,Early Vyatkian,Permian 4
+992,Puruhauan,Permian 4
+1106,Baoqingian,Permian 4
+477,Salado,Permian 4
+478,Castile,Permian 4
+1107,Laoshanian,Permian 4
+914,Kalabagh,Permian 4
+144,Longtanian,Permian 4
+476,Rustler,Permian 4
+1108,Laibinian,Permian 4
+993,Flettian,Permian 3
+917,Lengwuan,Permian 3
+479,Capitan,Permian 3
+466,Ohre,Permian 3
+467,Aller,Permian 3
+916,Amb,Permian 3
+907,Murgabian,Permian 3
+468,Leine,Permian 3
+1062,Late Urzhumian,Permian 3
+469,Stassfurt Evaporites,Permian 3
+1063,Early Urzhumian,Permian 3
+994,Barettian,Permian 3
+854,Urzhumian,Permian 3
+918,Kuhfengian,Permian 3
+470,Hauptdolomitstinkschiefer,Permian 3
+480,Word,Permian 3
+908,Kubergandian,Permian 3
+1047,Biarmian,Permian 3
+1064,Late Kazanian,Permian 3
+1065,Early Kazanian,Permian 3
+905,Kazanian,Permian 3
+855,Povolzhian,Permian 3
+856,Sokian,Permian 3
+1067,Solikamskian,Permian 2
+857,Irenian,Permian 2
+473,Kupferschiefer,Permian 4
+858,Filipovian,Permian 2
+474,Weissliegendes,Permian 2
+909,Bolorian,Permian 2
+859,Saranian,Permian 2
+919,Luodianian,Permian 2
+910,Yakhtashian,Permian 2
+471,Werra,Permian 2
+1066,Sheshmian,Permian 2
+147,Ufimian,Permian 2
+472,Zechsteinkalk,Permian 4
+995,Mangapirian,Permian 2
+861,Irginian,Permian 2
+862,Burtsevian,Permian 2
+860,Sarginian,Permian 2
+996,Telfordian,Permian 2
+921,Zisongian,Permian 1
+863,Sterlitamakian,Permian 1
+911,Khoridzhian,Permian 1
+864,Tastubian,Permian 1
+912,Sebisurkhian,Permian 1
+894,Bursumian,Permian 1
+849,Autunian,Permian 1
+895,Mapingian,Permian 1
+850,Lebach,Permian 1
+865,Shikhanian,Permian 1
+866,Uskalykian,Permian 1
+867,Sjuranian,Permian 1
+445,Stephanian,Carboniferous 5
+774,Late Pennsylvanian,Carboniferous 5
+456,Virgilian,Carboniferous 5
+868,Melekhovian,Carboniferous 5
+896,Xiaodushanian,Carboniferous 5
+851,Kuzel,Carboniferous 5
+152,Noginian,Carboniferous 5
+153,Klazminskian,Carboniferous 5
+448,Stephanian C,Carboniferous 5
+869,Pavlovoposadian,Carboniferous 5
+870,Rusavkian,Carboniferous 5
+154,Dorogovilovian,Carboniferous 5
+457,Missourian,Carboniferous 5
+449,Stephanian B,Carboniferous 5
+450,Stephanian A,Carboniferous 5
+155,Khamovnichean,Carboniferous 5
+156,Krevyakian,Carboniferous 5
+157,Myachkovian,Carboniferous 4
+446,Westphalian,Carboniferous 4
+775,Middle Pennsylvanian,Carboniferous 4
+452,Westphalian D,Carboniferous 4
+158,Podolskian,Carboniferous 4
+459,Atokan,Carboniferous 4
+872,Tsninian,Carboniferous 4
+159,Kashirian,Carboniferous 4
+453,Westphalian C,Carboniferous 4
+160,Vereian,Carboniferous 4
+454,Westphalian B,Carboniferous 4
+161,Melekesian,Carboniferous 4
+875,Krasnopolyanian,Carboniferous 4
+776,Early Pennsylvanian,Carboniferous 4
+898,Huashibanian,Carboniferous 4
+166,Alportian,Carboniferous 4
+455,Westphalian A,Carboniferous 4
+162,Cheremshanian,Carboniferous 4
+876,Voznesenian,Carboniferous 4
+899,Luosuan,Carboniferous 4
+460,Morrowan,Carboniferous 4
+167,Chokierian,Carboniferous 4
+163,Yeadonian,Carboniferous 4
+873,Prikarnian,Carboniferous 4
+164,Marsdenian,Carboniferous 4
+874,Severokeltmenian,Carboniferous 4
+165,Kinderscoutian,Carboniferous 4
+880,Tarussian,Carboniferous 3
+900,Dewunian,Carboniferous 3
+777,Late Mississippian,Carboniferous 3
+168,Arnsbergian,Carboniferous 3
+878,Protvian,Carboniferous 3
+169,Pendleian,Carboniferous 3
+879,Steshevian,Carboniferous 3
+170,Brigantian,Carboniferous 3
+881,Venevian,Carboniferous 3
+901,Shangsian,Carboniferous 3
+171,Asbian,Carboniferous 3
+882,Mikhailovian,Carboniferous 3
+902,Jiusian,Carboniferous 2
+884,Tulian,Carboniferous 2
+172,Holkerian,Carboniferous 2
+883,Aleksian,Carboniferous 2
+885,Bobrikovian,Carboniferous 2
+173,Arundian,Carboniferous 2
+886,Radaevian,Carboniferous 2
+174,Chadian,Carboniferous 2
+175,Ivorian,Carboniferous 1
+903,Tangbagouan,Carboniferous 1
+779,Early Mississippian,Carboniferous 1
+888,Kizolovian,Carboniferous 1
+399,Pilton,Carboniferous 1
+893,Gumerovian,Carboniferous 1
+889,Cherepetsian,Carboniferous 1
+464,Kinderhookian,Carboniferous 1
+176,Hastarian,Carboniferous 1
+890,Karakubian,Carboniferous 1
+891,Upinian,Carboniferous 1
+892,Malevian,Carboniferous 1
+418,Hemberg,Devonian 5
+400,Baggy,Devonian 5
+432,Conewangoan,Devonian 5
+419,Nehden,Devonian 5
+410,Famennien,Devonian 5
+401,Upcott,Devonian 5
+433,Conneaut,Devonian 5
+402,Pickwell Down,Devonian 5
+434,Canadaway,Devonian 5
+1068,Late Famennian,Devonian 5
+416,Wocklum,Devonian 5
+417,Dasberg,Devonian 5
+1069,Middle Famennian,Devonian 5
+1070,Early Famennian,Devonian 5
+436,Sonyea,Devonian 4
+435,West Falls,Devonian 4
+1071,Late Frasnian,Devonian 4
+1072,Middle Frasnian,Devonian 4
+1073,Early Frasnian,Devonian 4
+404,Ilfracombe,Devonian 3
+1076,Late Givetian,Devonian 3
+1078,Early Givetian,Devonian 3
+438,Taghanic,Devonian 3
+1077,Middle Givetian,Devonian 3
+439,Tioughnioga,Devonian 3
+421,Givet,Devonian 3
+412,Givetien,Devonian 3
+426,Srbsko,Devonian 3
+440,Cazenovian,Devonian 3
+422,Eifel,Devonian 3
+427,Chotec,Devonian 3
+441,Southwood,Devonian 3
+405,Hangman,Devonian 3
+1074,Late Emsian,Devonian 2
+423,Ems,Devonian 2
+442,Sawkill,Devonian 2
+429,Zlichovian,Devonian 2
+443,Deer Park,Devonian 2
+1075,Early Emsian,Devonian 2
+424,Siegen,Devonian 1
+415,Gedinnine,Devonian 1
+425,Gedinne,Devonian 1
+408,Ditton,Devonian 1
+784,unnamed Pridoli stage,Silurian 2
+33,Pleistocene,Cenozoic 6
+34,Pliocene,Cenozoic 6
+36,Oligocene,Cenozoic 4
+38,Paleocene,Cenozoic 1
+45,Middle Triassic,Triassic 2
+46,Early Triassic,Triassic 1
+771,Lopingian,Permian 4
+772,Guadalupian,Permian 3
+59,Pridoli,Silurian 2
+60,Ludlow,Silurian 2
+61,Wenlock,Silurian 2
+62,Llandovery,Silurian 1
+922,Late Pleistocene,Cenozoic 6
+923,Middle Pleistocene,Cenozoic 6
+740,Calabrian,Cenozoic 6
+741,Gelasian,Cenozoic 6
+96,Piacenzian,Cenozoic 6
+97,Zanclean,Cenozoic 6
+98,Messinian,Cenozoic 6
+99,Tortonian,Cenozoic 6
+100,Serravallian,Cenozoic 5
+101,Langhian,Cenozoic 5
+102,Burdigalian,Cenozoic 5
+103,Aquitanian,Cenozoic 5
+104,Chattian,Cenozoic 4
+105,Rupelian,Cenozoic 4
+106,Priabonian,Cenozoic 3
+107,Bartonian,Cenozoic 3
+108,Lutetian,Cenozoic 2
+109,Ypresian,Cenozoic 2
+110,Thanetian,Cenozoic 1
+743,Selandian,Cenozoic 1
+111,Danian,Cenozoic 1
+112,Maastrichtian,Cretaceous 8
+113,Campanian,Cretaceous 7
+114,Santonian,Cretaceous 6
+115,Coniacian,Cretaceous 6
+116,Turonian,Cretaceous 6
+117,Cenomanian,Cretaceous 5
+118,Albian,Cretaceous 4
+119,Aptian,Cretaceous 3
+120,Barremian,Cretaceous 2
+121,Hauterivian,Cretaceous 2
+122,Valanginian,Cretaceous 1
+123,Berriasian,Cretaceous 1
+124,Tithonian,Jurassic 6
+125,Kimmeridgian,Jurassic 5
+126,Oxfordian,Jurassic 5
+127,Callovian,Jurassic 5
+128,Bathonian,Jurassic 4
+129,Bajocian,Jurassic 4
+130,Aalenian,Jurassic 3
+131,Toarcian,Jurassic 3
+132,Pliensbachian,Jurassic 2
+133,Sinemurian,Jurassic 1
+134,Hettangian,Jurassic 1
+135,Rhaetian,Triassic 4
+136,Norian,Triassic 4
+137,Carnian,Triassic 3
+138,Ladinian,Triassic 2
+139,Anisian,Triassic 2
+652,Olenekian,Triassic 1
+653,Induan,Triassic 1
+715,Changhsingian,Permian 4
+716,Wuchiapingian,Permian 4
+145,Capitanian,Permian 3
+146,Wordian,Permian 3
+717,Roadian,Permian 3
+148,Kungurian,Permian 2
+149,Artinskian,Permian 2
+150,Sakmarian,Permian 1
+151,Asselian,Permian 1
+49,Gzhelian,Carboniferous 5
+50,Kasimovian,Carboniferous 5
+51,Moscovian,Carboniferous 4
+52,Bashkirian,Carboniferous 4
+53,Serpukhovian,Carboniferous 3
+55,Tournaisian,Carboniferous 1
+177,Famennian,Devonian 5
+178,Frasnian,Devonian 4
+179,Givetian,Devonian 3
+180,Eifelian,Devonian 3
+181,Emsian,Devonian 2
+182,Pragian,Devonian 1
+183,Lochkovian,Devonian 1
+3001,Pridoli,Silurian 2
+184,Ludfordian,Silurian 2
+185,Gorstian,Silurian 2
+785,Homerian,Silurian 2
+188,Sheinwoodian,Silurian 2
+189,Telychian,Silurian 1
+190,Aeronian,Silurian 1
+191,Rhuddanian,Silurian 1
+381,Pridolischichten,Silurian 2
+386,Burgsvik,Silurian 2
+839,Ohesaare,Silurian 2
+368,Temeside Shales,Silurian 2
+382,Kopaninaschichten,Silurian 2
+387,Eke,Silurian 2
+784,unnamed Pridoli stage,Silurian 2
+840,Kaugetuma,Silurian 2
+369,Downton Castle,Silurian 2
+388,Hemse,Silurian 2
+841,Kuressaare,Silurian 2
+370,Whitcliffe,Silurian 2
+384,Sundre,Silurian 2
+1095,Kuimov,Silurian 2
+842,Paadla,Silurian 2
+1091,Salina,Silurian 2
+371,Leintwardine,Silurian 2
+394,Cayugan,Silurian 2
+385,Hamra,Silurian 2
+367,Red Downtonian,Silurian 2
+372,Bringewood,Silurian 2
+373,Elton,Silurian 2
+843,Rootsikula,Silurian 2
+374,Wenlock (England),Silurian 2
+186,Gleedonian,Silurian 2
+375,Tickwood,Silurian 2
+1096,Chagyrka,Silurian 2
+187,Whitwellian,Silurian 2
+1098,Polaty,Silurian 1
+378,Woolhope,Silurian 1
+397,Ontarian,Silurian 1
+1099,Syrovaty,Silurian 1
+379,Wych,Silurian 1
+393,Lower Visby,Silurian 1
+846,Adavere,Silurian 1
+1094,Medina,Silurian 1
+398,Alexandrian,Silurian 1
+1100,Vtorye Utesy,Silurian 1
+847,Raikkula,Silurian 1
+848,Juuru,Silurian 1
+380,Cowleigh Park,Silurian 1
+192,Hirnantian,Ordovician 5
+29,Late Ordovician,Ordovician 5
+326,Kosov,Ordovician 5
+336,Porkuni,Ordovician 5
+1011,late Late Ordovician,Ordovician 5
+592,Kosovian,Ordovician 5
+353,Gamach,Ordovician 5
+63,Ashgill,Ordovician 5
+564,Gamachian,Ordovician 5
+610,Wufeng,Ordovician 5
+606,Qiantianjiang,Ordovician 5
+565,Richmondian,Ordovician 5
+597,Bolindian,Ordovician 5
+638,Ashgillian,Ordovician 5
+621,Chientangkiangian,Ordovician 5
+354,Richmond,Ordovician 5
+194,Cautleyan,Ordovician 5
+327,Kraluv Dvur,Ordovician 5
+195,Pusgillian,Ordovician 5
+337,Pirgu,Ordovician 5
+593,Kralodvorian,Ordovician 5
+355,Maysville,Ordovician 4
+196,Onnian,Ordovician 4
+339,Nabala,Ordovician 4
+566,Maysvillian,Ordovician 4
+577,Streffordian,Ordovician 4
+598,Eastonian,Ordovician 4
+343,Johvi,Ordovician 4
+594,Berounian,Ordovician 4
+617,Hanjiang,Ordovician 4
+639,Caradocian,Ordovician 4
+567,Chatfieldian,Ordovician 4
+622,Neichiashanian,Ordovician 4
+557,Wildernessian,Ordovician 4
+204,Middle Llandeilo,Ordovician 4
+345,Kukruse,Ordovician 4
+627,Haljala,Ordovician 4
+568,Turinian,Ordovician 4
+558,Ashbyan,Ordovician 4
+646,Shermanian,Ordovician 4
+64,Caradoc,Ordovician 4
+356,Edenian,Ordovician 4
+647,Blackriveran,Ordovician 4
+642,Franklinian,Ordovician 4
+554,Trentonian,Ordovician 4
+643,Kirkfieldian,Ordovician 4
+203,Late Llandeilo,Ordovician 4
+644,Rocklandian,Ordovician 4
+198,Marshbrookian,Ordovician 4
+340,Rakvere,Ordovician 4
+578,Cheneyan,Ordovician 4
+588,Woolstonian,Ordovician 4
+197,Actonian,Ordovician 4
+341,Oandu,Ordovician 4
+561,Mohawkian,Ordovician 4
+1009,Sandbian,Ordovician 4
+357,Sherman,Ordovician 4
+358,Kirkfield,Ordovician 4
+359,Rockland,Ordovician 4
+199,Longvillian,Ordovician 4
+200,Soudleyan,Ordovician 4
+329,Zahorany,Ordovician 4
+201,Harnagian,Ordovician 4
+579,Burrellian,Ordovician 4
+330,Vinice,Ordovician 4
+331,Letna,Ordovician 4
+342,Keila,Ordovician 4
+787,early Late Ordovician,Ordovician 4
+344,Idavere,Ordovician 4
+599,Gisbornian,Ordovician 4
+590,Dobrotivian,Ordovician 4
+332,Liben,Ordovician 4
+360,Black River,Ordovician 4
+589,Volfreyan,Ordovician 4
+202,Costonian,Ordovician 4
+580,Aurelucian,Ordovician 4
+206,Late Llanvirn,Ordovician 3
+347,Lasnamagi,Ordovician 3
+348,Aseri,Ordovician 3
+581,Llandeilian,Ordovician 3
+591,Oretanian,Ordovician 3
+346,Uhaku,Ordovician 3
+582,Abereiddian,Ordovician 3
+205,Early Llandeilo,Ordovician 3
+333,Dobrotiva,Ordovician 3
+66,Llanvirn,Ordovician 3
+630,Aluoja,Ordovician 3
+207,Early Llanvirn,Ordovician 3
+334,Sarka,Ordovician 3
+631,Valaste,Ordovician 2
+632,Hunderum,Ordovician 2
+583,Fennian,Ordovician 2
+67,Arenig,Ordovician 2
+335,Klabava,Ordovician 2
+1079,Dapingian,Ordovician 2
+788,early Middle Ordovician,Ordovician 2
+350,Volkhov,Ordovician 2
+640,Volkhovian,Ordovician 2
+633,Langevoja,Ordovician 2
+569,Rangerian,Ordovician 2
+634,Vaana,Ordovician 2
+635,Saka,Ordovician 2
+626,Valhallan,Ordovician 2
+363,Cassinian,Ordovician 2
+613,Dawan,Ordovician 2
+614,Daobaowan,Ordovician 2
+596,Arenigian,Ordovician 2
+619,Ningkuo,Ordovician 2
+624,Yushanian,Ordovician 2
+601,Castlemainian,Ordovician 2
+1010,Floian,Ordovician 2
+585,Moridunian,Ordovician 2
+636,Billingen,Ordovician 2
+789,late Early Ordovician,Ordovician 2
+641,Latorpian,Ordovician 2
+570,Blackhillsian,Ordovician 2
+584,Whitlandian,Ordovician 2
+602,Chewtonian,Ordovician 2
+603,Bendigonian,Ordovician 2
+68,Tremadoc,Ordovician 1
+366,Gasconadian,Ordovician 1
+559,Tremadocian,Ordovician 1
+572,Stairsian,Ordovician 1
+586,Migneintian,Ordovician 1
+609,Yichang,Ordovician 1
+573,Skullrockian,Ordovician 1
+605,Warendian,Ordovician 1
+651,Demingian,Ordovician 1
+587,Cressagian,Ordovician 1
+365,Deming,Ordovician 1
+615,Lianghekou,Ordovician 1
+625,Ichangian,Ordovician 1
+828,Ungurian,Ordovician 1
+628,Varangu,Ordovician 1
+629,Pakerort,Ordovician 1
+790,Mansian,Ordovician 1
+800,Datsonian,Ordovician 1
+1112,Stage 10,Cambrian 4
+801,Payntonian,Cambrian 4
+780,Furongian,Cambrian 4
+829,Batyrbaian,Cambrian 4
+830,Aksayan,Cambrian 4
+822,Sunwaptan,Cambrian 4
+791,Ketyan,Cambrian 4
+1085,Niuchehean,Cambrian 4
+810,Taoyuanian,Cambrian 4
+792,Yurakian,Cambrian 4
+322,Franconian,Cambrian 4
+313,Maentwrog,Cambrian 4
+835,Merionethian,Cambrian 4
+323,Dresbachian,Cambrian 4
+208,Dolgellian,Cambrian 4
+831,Sakian,Cambrian 4
+69,Merioneth,Cambrian 4
+795,Tavgian,Cambrian 4
+209,Maentwrogian,Cambrian 4
+823,Steptoean,Cambrian 4
+311,Dolgelly,Cambrian 4
+819,Millardan,Cambrian 4
+321,Trempealeauan,Cambrian 4
+312,Festiniogian,Cambrian 4
+1113,Jiangshanian,Cambrian 4
+1114,Paibian,Cambrian 4
+802,Iverian,Cambrian 4
+1087,Guzhangian,Cambrian 4
+811,Waergangian,Cambrian 4
+793,Ensyan,Cambrian 4
+812,Youshuanian,Cambrian 4
+803,Idamean,Cambrian 4
+794,Maduan,Cambrian 4
+804,Mindyallan,Cambrian 4
+796,Nganasanian,Cambrian 4
+1086,Paibian,Cambrian 4
+805,Boomerangian,Cambrian 3
+797,Mayan,Cambrian 3
+813,Wangcunian,Cambrian 3
+833,Zhanarykian,Cambrian 3
+211,Solvan,Cambrian 3
+317,Hafotty,Cambrian 3
+1082,Wulingian,Cambrian 3
+314,Clogau,Cambrian 3
+836,Arcadian,Cambrian 3
+324,Albertian,Cambrian 3
+315,Gamlan,Cambrian 3
+70,St Davids,Cambrian 3
+210,Menevian,Cambrian 3
+316,Barmouth,Cambrian 3
+781,Middle Cambrian,Cambrian 3
+806,Undillan,Cambrian 3
+1117,Stage 5,Cambrian 3
+807,Floran,Cambrian 3
+834,Tyesaian,Cambrian 3
+825,Delamaran,Cambrian 3
+798,Amgan,Cambrian 3
+814,Taijangian,Cambrian 3
+808,Templetonian,Cambrian 3
+749,Toyonian,Cambrian 2
+816,Nangaoian,Cambrian 2
+212,Lenian,Cambrian 2
+318,Rhinog,Cambrian 2
+750,Botomian,Cambrian 2
+1083,Qiandongian,Cambrian 2
+826,Dyeran,Cambrian 2
+809,Ordian,Cambrian 2
+815,Duyunian,Cambrian 2
+837,Branchian,Cambrian 2
+325,Waucoban,Cambrian 2
+71,Caerfai,Cambrian 2
+1119,Stage 3,Cambrian 2
+213,Atdabanian,Cambrian 2
+319,Llanbedr,Cambrian 2
+827,Montezuman,Cambrian 2
+320,Dolwen,Cambrian 2
+214,Tommotian,Cambrian 2
+1120,Stage 2,Cambrian 2
+1121,Fortunian,Cambrian 1
+799,Nemakit-Daldynian,Cambrian 1
+748,Manykaian,Cambrian 1
