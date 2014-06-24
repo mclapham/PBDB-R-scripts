@@ -244,8 +244,8 @@ sqs.calc<-function(include_taxon,maxinterval="Phanerozoic",mininterval="Phaneroz
     int_min<-mean(c(time_int$late_age[match(as.numeric(rownames(sqs_diversity)),time_int$interval_no)],time_int$early_age[match(as.numeric(rownames(sqs_diversity)),time_int$interval_no)]))
   } else if (temp_res=="myrbin") {
     int_names<-time_conv$myr_bin_name[match(as.numeric(rownames(sqs_diversity)),time_conv$myr_bin_no)]
-    myr_stages<-c("Fortunian","Early Cambrian","Middle Cambrian","Furongian","Tremadocian","Arenig","Llandeilo","Caradoc","Hirnantian","Telychian","Pridoli","Pragian","Emsian","Givetian","Frasnian","Famennian","Tournaisian","Asbian","Serpukhovian","Moscovian","Gzhelian","Sakmarian","Kungurian","Capitanian","Changhsingian","Olenekian","Ladinian","Carnian","Rhaetian","Sinemurian","Pliensbachian","Aalenian","Bathonian","Kimmeridgian","Tithonian","Valanginian","Barremian","Aptian","Albian","Cenomanian","Santonian","Campanian","Maastrichtian","Thanetian","Lutetian","Priabonian","Chattian","Serravallian","Late Pleistocene")
-    myr_endpt<-time_int$late_age[match(myr_stages,time_int$interval_name)]
+    myr_stages<-c("Fortunian","Early Cambrian","Middle Cambrian","Furongian","Tremadocian","Arenig","Llanvirn","Caradoc","Hirnantian","Telychian","Pridoli","Pragian","Emsian","Givetian","Frasnian","Famennian","Tournaisian","Asbian","Serpukhovian","Moscovian","Gzhelian","Sakmarian","Kungurian","Capitanian","Changhsingian","Olenekian","Ladinian","Carnian","Rhaetian","Sinemurian","Pliensbachian","Aalenian","Bathonian","Kimmeridgian","Tithonian","Valanginian","Barremian","Aptian","Albian","Cenomanian","Santonian","Campanian","Maastrichtian","Thanetian","Lutetian","Priabonian","Chattian","Serravallian","Late Pleistocene")
+    myr_endpt<-time_int$late_age[match(myr_stages,time_int$interval_name)]-0.5*diff(c(542,time_int$late_age[match(myr_stages,time_int$interval_name)]))
     int_min<-myr_endpt[as.numeric(rownames(sqs_diversity))]
   }
   
