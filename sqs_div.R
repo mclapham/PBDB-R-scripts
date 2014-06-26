@@ -33,16 +33,17 @@
 
 
 #Test parameters for my use in testing
-include_taxon="Rhynchonelliformea"
-maxinterval="Roadian"
-mininterval="Changhsingian"
-temp_res="stage"
-tax_level="genus"
+include_taxon="Insecta"
+maxinterval="Bashkirian"
+mininterval="Aalenian"
+temp_res="myrbin"
+tax_level="family"
 environ="all"
 formal_id="no"
-q=0.95
+q=0.85
 trials=10
 
+sqs.calc("Insecta","Bashkirian","Aalenian",q=0.85,trials=10,temp_res="myrbin",tax_level="family")
 
 sqs.calc<-function(include_taxon,maxinterval="Phanerozoic",mininterval="Phanerozoic",q,trials,temp_res="stage",tax_level="genus",environ="all",formal_id="no") {
   
@@ -167,23 +168,24 @@ sqs.calc<-function(include_taxon,maxinterval="Phanerozoic",mininterval="Phaneroz
     #extracts genus name from matched_name string
     cleaned_occs$matched_name<-gsub(" .*","",cleaned_occs$matched_name)
   }
-  
-  
-  goodsu<-function(data) {
+    
+  goodsu<-function(taxon_list) {
     
     #GOOD'S U CALCULATION
     #Single-occurrence taxa
-    p1<-length(which(sapply(split(data$matched_name,data$matched_name),length)==1))
+    p1<-length(which(table(taxon_list)==1))
     
     #Most abundant taxon
-    o1<-max(sapply(split(data$matched_name,data$matched_name),length))
+    o1<-max(table(taxon_list))
     
-    O<-nrow(data) #Total number of occurrences
+    O<-length(taxon_list) #Total number of occurrences
     
     #Good's u (coverage of data)
     1-p1/(O-o1)
     
   }
+  
+  
   
   #EXACT SQS METHOD
   
@@ -206,18 +208,20 @@ sqs.calc<-function(include_taxon,maxinterval="Phanerozoic",mininterval="Phaneroz
       #orders occurrences by random reference order (and then by previously-chosen random collection order within reference)
       sub_occs<-sub_occs[order(match(paste(sub_occs$reference_no,sub_occs$collection_no),ref_coll_comb)),]
       
+      collection_start<-sort(match(ref_coll_comb,paste(sub_occs$reference_no,sub_occs$collection_no)))
+      
       u<-numeric(0)
       div_ct<-numeric(0)
       n=1
-      #calculates Good's u at each point
-      for (i in match(ref_coll_comb,paste(sub_occs$reference_no,sub_occs$collection_no))) {
+      #calculates Good's u for each collection
+      for (i in sort(match(ref_coll_comb,paste(sub_occs$reference_no,sub_occs$collection_no)))) {
         data_sub<-sub_occs[1:i,]
         u[n]<-goodsu(data_sub)
         div_ct[n]<-length(unique(data_sub$matched_name))
         n=n+1
       }
       
-      #fixes problem with Good's u is highly volatile at small collection draws, creating spuriously low crossing
+      #fixes problem where Good's u is highly volatile at small collection draws, creating spuriously low crossing
       u<-u[10:length(u)] #10 is an arbitrary number
       
       #finds points where Good's U crosses above and below target q
