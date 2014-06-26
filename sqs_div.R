@@ -1,5 +1,6 @@
 #SHAREHOLDER QUORUM SUBSAMPLING
 #Based on exact SQS method described in Alroy (2014)
+#No guarantee that this works correctly. Fossilworks (www.fossilworks.org) offers SQS diversity curve generation
 
 #GETTING STARTED
 #To use this, copy the entire text from this document and paste it all at the prompt
@@ -30,20 +31,6 @@
 #Results are stored as diversity_results, which you can view in R by typing that name at the text prompt
 #To write the results to a file viewable in a spreadsheet, paste this command at the text prompt: write.csv(diversity_results,"sqs_diversity.csv")
 #The file, named sqs_diversity.csv, will be saved to the current working directory, which is most often your Documents folder. To find that folder, type getwd() at the R prompt
-
-
-#Test parameters for my use in testing
-include_taxon="Insecta"
-maxinterval="Bashkirian"
-mininterval="Aalenian"
-temp_res="myrbin"
-tax_level="family"
-environ="all"
-formal_id="no"
-q=0.85
-trials=10
-
-sqs.calc("Insecta","Bashkirian","Aalenian",q=0.85,trials=10,temp_res="myrbin",tax_level="family")
 
 sqs.calc<-function(include_taxon,maxinterval="Phanerozoic",mininterval="Phanerozoic",q,trials,temp_res="stage",tax_level="genus",environ="all",formal_id="no") {
   
@@ -170,7 +157,6 @@ sqs.calc<-function(include_taxon,maxinterval="Phanerozoic",mininterval="Phaneroz
   }
     
   goodsu<-function(taxon_list) {
-    
     #GOOD'S U CALCULATION
     #Single-occurrence taxa
     p1<-length(which(table(taxon_list)==1))
@@ -185,7 +171,8 @@ sqs.calc<-function(include_taxon,maxinterval="Phanerozoic",mininterval="Phaneroz
     
   }
   
-  
+  #19 to 32
+  occurrence_data<-subset(cleaned_occs,cleaned_occs$time_int==24)
   
   #EXACT SQS METHOD
   
@@ -208,27 +195,35 @@ sqs.calc<-function(include_taxon,maxinterval="Phanerozoic",mininterval="Phaneroz
       #orders occurrences by random reference order (and then by previously-chosen random collection order within reference)
       sub_occs<-sub_occs[order(match(paste(sub_occs$reference_no,sub_occs$collection_no),ref_coll_comb)),]
       
+      #finds starting position of each reference/collection combination
       collection_start<-sort(match(ref_coll_comb,paste(sub_occs$reference_no,sub_occs$collection_no)))
       
       u<-numeric(0)
       div_ct<-numeric(0)
       n=1
-      #calculates Good's u for each collection
-      for (i in sort(match(ref_coll_comb,paste(sub_occs$reference_no,sub_occs$collection_no)))) {
-        data_sub<-sub_occs[1:i,]
+      #calculates Good's u after adding each collection
+      for (i in collection_start) {
+        data_sub<-sub_occs$matched_name[1:i]
         u[n]<-goodsu(data_sub)
-        div_ct[n]<-length(unique(data_sub$matched_name))
+      
+        if (n>2) {
+          if(is.nan(u[n])==F & is.nan(u[n-1])==F) {
+            #finds diversity at points where Good's U crosses above and below target q
+            if (u[n]>q & u[n-1]<q) {
+              div_ct<-c(div_ct,length(unique(data_sub)))
+            }
+          
+            if (u[n]<q & u[n-1]>q) {
+              div_ct<-c(div_ct,length(unique(data_sub)))
+            }
+          }
+        }
         n=n+1
       }
       
-      #fixes problem where Good's u is highly volatile at small collection draws, creating spuriously low crossing
-      u<-u[10:length(u)] #10 is an arbitrary number
-      
-      #finds points where Good's U crosses above and below target q
-      cross_above<-which((u<q)==FALSE)[c(1,which(diff(which((u<q)==FALSE))>1)+1)]
-      cross_below<-which((u<q)==TRUE)[which(diff(which((u<q)==TRUE))>1)+1]
-      median(div_ct[c(cross_above,cross_below)])
-      
+      #finds median diversity 
+      median(div_ct)
+    
     } else {return(NA)}
   }
   
