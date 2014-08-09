@@ -58,7 +58,7 @@ sqs.calc<-function(include_taxon,maxinterval="Phanerozoic",mininterval="Phaneroz
   #finds only those collections resolved to a single time interval
   if (temp_res=="myrbin") {
     #loads file with matches between PBDB intervals and "10 myr bins"
-    time_conv<-read.csv("https://github.com/mclapham/PBDB-R-scripts/blob/master/time_convers.csv?raw=true")
+    time_conv<-read.csv("https://github.com/mclapham/PBDB-R-scripts/raw/master/time_convers.csv")
     
     #deletes occurrences where at least one of the time intervals is not contained within a single 10-myr-bin
     occurrences<-subset(occurrences,occurrences$early_interval %in% time_conv$interval_name & occurrences$late_interval %in% time_conv$interval_name)
