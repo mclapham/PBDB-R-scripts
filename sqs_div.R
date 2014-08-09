@@ -1,6 +1,7 @@
 #SHAREHOLDER QUORUM SUBSAMPLING
 #Based on exact SQS method described in Alroy (2014)
 #No guarantee that this works correctly. Fossilworks (www.fossilworks.org) offers SQS diversity curve generation
+#Requires RCurl package to get data from github
 
 #GETTING STARTED
 #To use this, copy the entire text from this document and paste it all at the prompt
@@ -58,7 +59,9 @@ sqs.calc<-function(include_taxon,maxinterval="Phanerozoic",mininterval="Phaneroz
   #finds only those collections resolved to a single time interval
   if (temp_res=="myrbin") {
     #loads file with matches between PBDB intervals and "10 myr bins"
-    time_conv<-read.csv("https://github.com/mclapham/PBDB-R-scripts/raw/master/time_convers.csv")
+    library(RCurl)
+    time_url<-getURL("https://raw.githubusercontent.com/mclapham/PBDB-R-scripts/master/time_convers.csv",ssl.verifypeer = FALSE)
+    time_conv<-read.csv(text=time_url)
     
     #deletes occurrences where at least one of the time intervals is not contained within a single 10-myr-bin
     occurrences<-subset(occurrences,occurrences$early_interval %in% time_conv$interval_name & occurrences$late_interval %in% time_conv$interval_name)
