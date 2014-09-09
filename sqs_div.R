@@ -174,10 +174,7 @@ sqs.calc<-function(include_taxon,maxinterval="Phanerozoic",mininterval="Phaneroz
     
   }
   
-  #19 to 32
-  occurrence_data<-subset(cleaned_occs,cleaned_occs$time_int==24)
-  
-  #EXACT SQS METHOD
+    #EXACT SQS METHOD
   
   sqs.method<-function(occurrence_data) {
     
