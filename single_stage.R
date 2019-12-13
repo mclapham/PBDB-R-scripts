@@ -6,7 +6,7 @@ single.stage <- function(occurrence_data, reso = "stage") {
   if (reso == "stage") {
     occurrence_data$max_stage <- time_match$matched_stage[match(occurrence_data$early_interval, time_match$int_name)]
     occurrence_data$min_stage <- time_match$matched_stage[match(occurrence_data$late_interval, time_match$int_name)]
-  } else if (reso = "series") {
+  } else if (reso == "series") {
     occurrence_data$max_stage <- time_match$matched_series[match(occurrence_data$early_interval, time_match$int_name)]
     occurrence_data$min_stage <- time_match$matched_series[match(occurrence_data$late_interval, time_match$int_name)]
   }
