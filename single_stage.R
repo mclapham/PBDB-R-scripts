@@ -1,6 +1,3 @@
-#read stage match
-time_match <- read.csv("https://docs.google.com/spreadsheets/d/1DPWsRF3DmGEo0eJXjvotuDJLphFaSYqjfCpYXWSgDvY/export?gid=0&format=csv")
-
 single.stage <- function(occurrence_data, reso = "stage") {
   
   if (reso == "stage") {
