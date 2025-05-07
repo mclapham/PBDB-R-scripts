@@ -9,7 +9,10 @@ single.stage <- function(occurrence_data, reso = "stage") {
   } else if (reso == "series") {
     occurrence_data$max_stage <- time_match$matched_series[match(occurrence_data$early_interval, time_match$int_name)]
     occurrence_data$min_stage <- time_match$matched_series[match(occurrence_data$late_interval, time_match$int_name)]
-  }
+  } else if (reso == "subseries") {
+    occurrence_data$max_stage <- time_match$matched_subseries[match(occurrence_data$early_interval, time_match$int_name)]
+    occurrence_data$min_stage <- time_match$matched_subseries[match(occurrence_data$late_interval, time_match$int_name)]
+    }
 
   
   occurrence_data <- subset(occurrence_data, is.na(occurrence_data$max_stage)==F) #must remove ones where max_stage doesn't match
